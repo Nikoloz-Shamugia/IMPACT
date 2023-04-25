@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+}
+.logo a img{
+    width: 90px;
+    margin-right: 700px;
+}
+.navigation{
+    display: flex;
+    margin-top: 35px;
+}
+.navigation a {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+.navigation li{
+    list-style-type: none;   
+}
+.navigation li::after{
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background-color: black;
+    vertical-align: middle;
+    margin-left: 28px;
+}
+.navigation li:nth-child(4)::after{
+    content: "";
+    width: 0;
+}
+.container{
+    max-width: 1260px;
+    margin-left: 180px;
+}
+.images{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.container h1{
+    margin: 100px 0px 70px 0px;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+.container h3{
+    width: 480px;
+    font-size: 33px;
+    margin-bottom: 70px;
+}
+.lorem-ipsum{
+    width: 430px;
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+.button{
+    display: flex;
+}
+.button button{
+    background-color: rgb(255, 166, 1);
+    width: 210px;
+    display: flex;
+    box-shadow: 0px 4px 4px rgb(47, 47, 47);
+}
+.button-paragraph{
+    padding: 7px 5px 7px 25px;
+    color: white;
+}
+.button-pharagraph ::before{
+content: "";
+display: inline-block;
+width: 2px;
+height: 20px;
+background-color:white;
+vertical-align: middle;
+}
+.container h2{
+    margin-top: 300px;
+    width: 280px;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+.lorem-ipsum2{
+    width: 630px;
+    margin-bottom: 70px;
+    font-size: 18px; 
+    color: rgb(58, 58, 58);
+}
+footer{
+    background-color: blue;
+}
+.footer-wrapper{
+    margin-right: 100px;
+    display: inline-block;
+}
+.footer-wrapper h3{
+    margin: 90px 60px 70px 130px;
+    font-size: 34px ;
+    color: white;
+}
+.footer-mini-wrapper{
+    margin-left: 130px;
+    margin-bottom: 40px;
+    color: white;
+}
+.footer-wrapper::before{
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 100px;
+    background-color: white;
+    vertical-align: middle;
+}
+.footer-wrapper :nth-child(1):before{
+    content: "";
+    width: 0;
+}
+
