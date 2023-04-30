@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #F7F7F7;
+}
 header{
     display: flex;
 }
@@ -57,6 +60,7 @@ header{
 .lorem-ipsum{
     width: 430px;
     margin-bottom: 70px;
+    line-height: 32px;
     font-size: 18px;
 }
 .button{
@@ -64,21 +68,23 @@ header{
 }
 .button button{
     background-color: rgb(255, 166, 1);
-    width: 210px;
+    width: 250px;
     display: flex;
-    box-shadow: 0px 4px 4px rgb(47, 47, 47);
+    box-shadow: 0px 4px 4px rgb(47, 47, 47)
 }
 .button-paragraph{
     padding: 7px 5px 7px 25px;
     color: white;
+    margin-left: 10px;
 }
-.button-pharagraph ::before{
+.button-paragraph::before{
 content: "";
 display: inline-block;
 width: 2px;
 height: 20px;
 background-color:white;
 vertical-align: middle;
+margin-right: 30px;
 }
 .container h2{
     margin-top: 300px;
@@ -90,35 +96,186 @@ vertical-align: middle;
     width: 630px;
     margin-bottom: 70px;
     font-size: 18px; 
+    line-height: 32px;
     color: rgb(58, 58, 58);
 }
-footer{
+.middle-section{
     background-color: blue;
+    display: flex;
 }
-.footer-wrapper{
-    margin-right: 100px;
-    display: inline-block;
+.middle-section-wrapper{
+    margin-right: 40px;
+    margin-bottom: 60px;
 }
-.footer-wrapper h3{
-    margin: 90px 60px 70px 130px;
+.middle-section-wrapper h3{
+    margin: 90px 10px 70px 130px;
     font-size: 34px ;
     color: white;
+    padding-right: 150px;
 }
-.footer-mini-wrapper{
+.middle-section-mini-wrapper{
     margin-left: 130px;
     margin-bottom: 40px;
     color: white;
 }
-.footer-wrapper::before{
+.button-wrapper{
+    width: 514px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 70px;
+}
+.button-wrapper button{
+    padding: 5px 2px 5px 2px;
+    box-shadow: 0px 2px 4px #00000029;
+    margin: 0px 7px 10px 0px;
+}
+.span{
+    margin-right: 15px;
+    font-size: 11px;
+}
+.building-img{
+    width: 700px;
+    height: 420px;
+}
+.right-arrow{
+    width: 27px;
+    height: 28px;
+    vertical-align: middle;
+}
+.info-wrapper a{
+    text-decoration: none;
+    color: #002D69;
+}
+.img-and-info-wrapper{
+    display: flex;
+    box-shadow:0px 4px 6px #00000029;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 60px;
+}
+.info-wrapper{
+    padding:39px 48px 0px 45px;
+}
+.info-wrapper span{
+    color:#959595 ;
+    font-size:17px;;
+}
+.date{
+    margin: 18px 0px 9px 0px;
+}
+.not-important-info{
+    width: 476px;
+    line-height: 28px;
+    margin: 31px 0px 50px 0px;
+}
+.three-div-wrapper{
+    display: flex;
+    margin-bottom: 100px;
+}
+.image-wrapper{
+    width:320px;
+    height: 270px;;
+}
+.block{
+    padding:30px 0px 0px 30px;
+}
+.block span{
+    color: #959595;
+    font-size: 17px;
+}
+.info-wrapper2{
+    margin:39px 48px 0px 45px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: white;
+    box-shadow: 0px 4px 6px #00000029;
+}
+.img-and-link-wrapper{
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+.info-wrapper2 a{
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #002D69;
+}
+.eye-img{
+    width: 28px;
+    vertical-align: middle;
+}
+.signup-button{
+    background-color: #FF7600;
+    border-radius: 5px;
+    border: orange 2px solid;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+.signup-button span{
+    color: white;
+}
+.signup-button span::before{
     content: "";
     display: inline-block;
     width: 2px;
-    height: 100px;
-    background-color: white;
+    height: 20px;
+    background-color:rgb(227, 9, 9);
     vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px;
 }
-.footer-wrapper :nth-child(1):before{
-    content: "";
-    width: 0;
+.two-div-wrapper{
+    display: flex;
 }
+.information{
+    margin: 0px 160px 30px 0px;
+}
+.catalog{
+    background-color: #0865DE;
+    color: #F7F7F7;
+}
+.four-div-wrapper{
+    display: flex;
+}
+.MoMA{
+    border: 1px solid #DBDBDB;
+    padding: 60px 40px 60px 40px;
+    font-size: 30px;
+}
+.references{
+    background-color:white;
+    padding: 60px 500px 90px 90px;
+}
+.info-wrapper3{
+    padding: 26px 10px 30px 30px;
+    background-color: white;
+    width: 777px;
+    margin-right: 60px;
+    box-shadow: 0px 4px 6px #00000029;
+}
+.info-wrapper3 h5{
+    margin-bottom: 20px;
+}
+.info-wrapper3 span{
+    font-size: 10px;
+}
+.info-wrapper3 p{
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+}
+.numbers{
+    margin: 40px 50px 10px 60px;
+    line-height: 40px
+}
+.input{
+    margin: 40px 50px 10px 60px;
+}
+.input h4{
+    margin: 63px 0px 33px 0px;
+    width: 400px;
+}
+.input button{
+    background-color: #006eff;
 
+}
